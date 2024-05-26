@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administración de Citas</title>
+    <!-- Enlace al archivo CSS de Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Enlace al archivo CSS personalizado (si lo tienes) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">Administración de Citas</h1>
+        <form id="adminCitasForm" class="mt-4">
+            <div class="form-group">
+                <label for="citaId">ID de Cita:</label>
+                <input type="text" class="form-control" id="citaId" name="citaId" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmada">Confirmada:</label>
+                <input type="checkbox" class="form-control" id="confirmada" name="confirmada">
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+        </form>
+    </div>
+
+    <!-- Enlace al archivo JavaScript de Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Tu archivo script personalizado -->
+    <script src="administar.js"></script>
+</body>
+</html>
